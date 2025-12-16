@@ -1,0 +1,17 @@
+# === 安全类 (绝对不能传) ===
+.env
+.env.local
+
+# === 运行产生的垃圾/缓存 ===
+__pycache__/
+*.pyc
+
+# === 项目输出结果 (不需要传) ===
+output/
+poems_to_review.json
+*.log
+
+# === 系统文件 ===
+.DS_Store
+.idea/
+.vscode/
